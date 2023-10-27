@@ -30,7 +30,7 @@
 ### Installation
 
 - Install python requirements from `requirements.txt`
-- On the top left toolbar, go to `Tools->External Plugins->Open Plugin Directory`
+- On the top left toolbar of the KiCad PCB Editor, go to `Tools->External Plugins->Open Plugin Directory`
 - Copy paste the `Heater_Generator_Plugin` directory inside the the plugin directory (unzipped)
 - Press `Tools->External Plugins->Refresh Plugins`
 - The Heater Generator Plugin should be visible on the top right with its red heater icon
