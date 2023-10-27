@@ -7,6 +7,7 @@
 
 #### PCB Shape Options
 - Rectangle
+- (Edge cuts generated with the heater)
 
 #### Trace Options
 - Trace Width
@@ -19,6 +20,12 @@
 - Trace Option: ability to choose specific heater total resistance using different manufacturing capabilities
 - MISC: More error logging
 
+<br/>
+
+<p float="left">
+  <img src="media/options_window.png" alt="drawing" width="140"/>
+  <img src="media/generated_heater.png" alt="drawing" width="465"/>
+</p>
 
 ### Installation
 
