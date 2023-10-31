@@ -1,5 +1,3 @@
-<a href="https://www.flaticon.com/free-icons/heat" title="heat icons">Heat icon created by Smashicons - Flaticon</a>
-
 ### Features
 
 #### Supported (2D) Space-filling curves
@@ -35,3 +33,4 @@
 - Press `Tools->External Plugins->Refresh Plugins`
 - The Heater Generator Plugin should be visible on the top right with its red heater icon
 
+<a href="https://www.flaticon.com/free-icons/heat" title="heat icons">Heat icon created by Smashicons - Flaticon</a>
