@@ -29,7 +29,7 @@
 
 ### Installation
 
-- Install python requirements from `requirements.txt` by executing `pip install -r requirements. txt`
+- Install python requirements from `requirements.txt` by executing `pip install -r requirements.txt`
 - On the top left toolbar of the KiCad PCB Editor, go to `Tools->External Plugins->Open Plugin Directory`
 - Copy and paste the `Heater_Generator_Plugin` directory inside the plugin directory (unzipped)
 - Press `Tools->External Plugins->Refresh Plugins`
