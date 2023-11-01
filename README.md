@@ -15,7 +15,7 @@
 
 #### Future Work
 - Space-filling curves: addition of different curves
-- Trace Option: ability to choose specific heater total resistance using different manufacturing capabilities
+- Trace Options: ability to choose specific heater total resistance using different manufacturing capabilities
 - MISC: More error logging
 
 <br/>
