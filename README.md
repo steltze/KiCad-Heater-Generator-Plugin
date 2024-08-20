@@ -1,3 +1,5 @@
+A plugin for KiCad v7 to generate heater PCB designs based on space-filling curves
+
 ### Features
 
 #### Supported (2D) Space-filling curves
