@@ -59,8 +59,11 @@ class TracksGenerator(object):
 
         track.SetNet(self.net)
         
-        track.SetStart(pcbnew.VECTOR2I(pcbnew.wxPointMM(float(p_start[0]), float(p_start[1]))))
-        track.SetEnd(pcbnew.VECTOR2I(pcbnew.wxPointMM(float(p_end[0]), float(p_end[1]))))
+        p_start = pcbnew.wxPointMM(float(p_start[0]), float(p_start[1]))
+        track.SetStart(pcbnew.VECTOR2I(p_start[0], p_start[1]))
+
+        p_end = pcbnew.wxPointMM(float(p_end[0]), float(p_end[1]))
+        track.SetEnd(pcbnew.VECTOR2I(p_end[0], p_end[1]))
 
         self.board.Add(track)
         # self.group.AddItem(track)
@@ -69,8 +72,13 @@ class TracksGenerator(object):
         board = pcbnew.GetBoard()
         segment = pcbnew.PCB_SHAPE(board)
         segment.SetShape(pcbnew.SHAPE_T_SEGMENT)
-        segment.SetStart(pcbnew.VECTOR2I(pcbnew.wxPointMM(float(start[0]), float(start[1]))))
-        segment.SetEnd(pcbnew.VECTOR2I(pcbnew.wxPointMM(float(end[0]), float(end[1]))))
+
+        start_point = pcbnew.wxPointMM(float(start[0]), float(start[1]))
+        segment.SetStart(pcbnew.VECTOR2I(start_point[0], start_point[1]))
+
+        end_point = pcbnew.wxPointMM(float(end[0]), float(end[1]))
+        segment.SetEnd(pcbnew.VECTOR2I(end_point[0], end_point[1]))
+
         segment.SetLayer(pcbnew.Edge_Cuts)
         segment.SetWidth(int(0.1 * 1e6))
         board.Add(segment)
