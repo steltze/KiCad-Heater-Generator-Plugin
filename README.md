@@ -1,4 +1,4 @@
-A plugin for KiCad v7 to generate heater PCB designs based on space-filling curves
+A plugin for KiCad v7 to generate heater PCB designs based on space-filling curves. There is [this branch](https://github.com/steltze/KiCad-Heater-Generator-Plugin/tree/kicad_8_patch_VECTOR2I) for KiCad v8
 
 ### Features
 
